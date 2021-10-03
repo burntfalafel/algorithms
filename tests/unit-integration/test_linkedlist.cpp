@@ -7,6 +7,8 @@ int main()
   head = linkedlist_add<Node<char>>(head, 'a');
   head = linkedlist_add<Node<char>>(head, 'b');
   linkedlist_print<Node<char>>(head);
+  linkedlist_rem<Node<char>>(head,'b');
+  linkedlist_print(head);
   linkedlist_nuke<Node<char>>(head);
   return 0;
 }
